@@ -39,7 +39,7 @@ export const PokemonDetail = ( {pokemon}: Props) => {
                     }
                 </View>
 
-                <Text style={{...styles.title}}>Weight</Text>
+                <Text style={{...styles.title}}>Peso</Text>
                 <Text style={{...styles.regularText}}>{pokemon.weight} Kg</Text>
             </View>
 

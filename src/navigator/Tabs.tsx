@@ -33,7 +33,7 @@ export const Tabs = () => {
             name="Home" 
             component={Tab1} 
             options={{
-                tabBarLabel: 'List',
+                tabBarLabel: 'Listado',
                 tabBarIcon: ({color}) => (
                     <Icon color={color} size={25} name="list-outline"/>
                 )
@@ -43,7 +43,7 @@ export const Tabs = () => {
             name="SearchScreen" 
             component={ Tab2Screen } 
             options={{
-                tabBarLabel: 'Search',
+                tabBarLabel: 'Listado',
                 tabBarIcon: ({color}) => (
                     <Icon color={color} size={25} name="search-outline"/>
                 )
